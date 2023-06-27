@@ -50,6 +50,11 @@ const link = document.createElement( 'a' );
 // }
 onMounted(() => {
   const root = document.getElementById("container");
+  if(root)
+  {
+    root.style.left = `${window.innerWidth - 600} px`;
+    root.style.top = `${window.innerHeight - 600} px`;
+  }
   const canvas = document.createElement("canvas");
   canvas.style.width = "454px";
   canvas.style.height = "454px";
@@ -435,5 +440,10 @@ indexes.push(start + 8, start + 4, start + 9);
 <style scoped>
 .read-the-docs {
   color: #888;
+}
+div#container {
+    position: absolute !important;
+    top: -550px;
+    left: 1200px;
 }
 </style>
