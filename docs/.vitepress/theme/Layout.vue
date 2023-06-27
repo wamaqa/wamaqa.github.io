@@ -1,0 +1,3 @@
+<template>
+   <DefaultTheme></DefaultTheme>
+</template>
