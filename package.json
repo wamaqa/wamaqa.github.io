@@ -1,0 +1,28 @@
+{
+  "name": "wamaqa.github.io",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev workspace",
+    "docs:build": "vitepress build workspace",
+    "docs:serve": "vitepress serve workspace",
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/three": "^0.152.1",
+    "markdown-it-footnote": "^3.0.3",
+    "three": "^0.153.0",
+    "vitepress": "^1.0.0-beta.3",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/three": "^0.152.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
