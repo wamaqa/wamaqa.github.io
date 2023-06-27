@@ -20,7 +20,7 @@ navbar: true
 
 ### 创建 proto 文件
 
-``` proto3
+``` proto
 syntax = "proto3";
 // The greeting service definition.
 service Greeter {

@@ -1,35 +1,35 @@
 {
-  "hash": "6aab7156",
-  "browserHash": "c178414c",
+  "hash": "6c80c26c",
+  "browserHash": "d86c15a6",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "3c0427b1",
+      "fileHash": "57bffb46",
       "needsInterop": false
     },
     "three": {
       "src": "../../../../node_modules/three/build/three.module.js",
       "file": "three.js",
-      "fileHash": "67de8885",
+      "fileHash": "ab95d169",
       "needsInterop": false
     },
     "three/addons/exporters/OBJExporter.js": {
       "src": "../../../../node_modules/three/examples/jsm/exporters/OBJExporter.js",
       "file": "three_addons_exporters_OBJExporter__js.js",
-      "fileHash": "7cc3d280",
+      "fileHash": "ae8ef8e8",
       "needsInterop": false
     },
     "three/examples/jsm/controls/OrbitControls": {
       "src": "../../../../node_modules/three/examples/jsm/controls/OrbitControls.js",
       "file": "three_examples_jsm_controls_OrbitControls.js",
-      "fileHash": "d67c94fb",
+      "fileHash": "77591bcf",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-6XP4FSHB": {
-      "file": "chunk-6XP4FSHB.js"
+    "chunk-Y2MWCU52": {
+      "file": "chunk-Y2MWCU52.js"
     }
   }
 }
