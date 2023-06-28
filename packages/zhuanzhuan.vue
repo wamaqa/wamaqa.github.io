@@ -65,7 +65,7 @@ onMounted(() => {
   let gunLoc = gun.position.clone();
   engine.setAnimationLoop(() => {
     time++;
-    let v1 = time * 0.11 * Math.PI / 180;
+    let v1 = time * 0.01 * Math.PI / 180;
     lun.rotateZ(v1 * (450 - 28) / (80 + 15));
     out.rotateZ(v1);
     rotation.multiply(new THREE.Matrix4().makeRotationZ(v1 * (450 - 28) / (80 + 15)));
