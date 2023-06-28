@@ -1,3 +1,0 @@
-<template>
-   <DefaultTheme></DefaultTheme>
-</template>
