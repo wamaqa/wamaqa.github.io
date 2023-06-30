@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress';
+<<<<<<< HEAD
 import markdownItMermaid from 'markdown-it-mermaid'
 import mdIt from 'markdown-it-footnote'
+=======
+import mdFootnote from 'markdown-it-footnote'
+>>>>>>> 4c3cd88694a25f9419a7553576b0bd8870b6f621
 
 export default defineConfig({
   title:"wamaqa",
@@ -30,6 +34,7 @@ export default defineConfig({
   outDir:"../docs",
   markdown:{
     config:md=>{
+<<<<<<< HEAD
       md.use(mdIt)
       // md.use(markdownItMermaid);
     },
@@ -51,3 +56,9 @@ export default defineConfig({
 //     },
 //   })
 // );
+=======
+      md.use(mdFootnote)
+    }
+  }
+});
+>>>>>>> 4c3cd88694a25f9419a7553576b0bd8870b6f621

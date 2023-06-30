@@ -14,17 +14,25 @@
   "dependencies": {
     "@types/three": "^0.152.1",
     "markdown-it-footnote": "^3.0.3",
+<<<<<<< HEAD
     "markdown-it-mermaid": "^0.2.5",
+=======
+>>>>>>> 4c3cd88694a25f9419a7553576b0bd8870b6f621
     "three": "^0.153.0",
     "vitepress": "^1.0.0-beta.3",
     "vue": "^3.2.47"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/markdown-it-footnote": "^3.0.0",
     "@types/three": "^0.152.1",
     "@vitejs/plugin-vue": "^4.1.0",
     "markdown-it-mermaid": "^0.2.5",
     "mermaid": "^10.2.3",
+=======
+    "@types/three": "^0.152.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+>>>>>>> 4c3cd88694a25f9419a7553576b0bd8870b6f621
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vue-tsc": "^1.4.2"

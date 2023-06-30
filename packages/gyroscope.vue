@@ -112,5 +112,10 @@ function AddIndex(indexes: number[], start: number) {
 
 .container {
     position: absolute !important;
+<<<<<<< HEAD
+=======
+    top: -550px;
+    left: 1200px;
+>>>>>>> 4c3cd88694a25f9419a7553576b0bd8870b6f621
 }
 </style>
