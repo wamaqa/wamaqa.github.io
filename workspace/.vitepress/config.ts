@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
-import mdFootnote from 'markdown-it-footnote'
+import markdownItMermaid from 'markdown-it-mermaid'
+import mdIt from 'markdown-it-footnote'
 
 export default defineConfig({
   title:"wamaqa",
@@ -29,7 +30,24 @@ export default defineConfig({
   outDir:"../docs",
   markdown:{
     config:md=>{
-      md.use(mdFootnote)
-    }
+      md.use(mdIt)
+      // md.use(markdownItMermaid);
+    },
+  },
+  mermaid:{
+
   }
 });
+
+// import { defineConfig } from "vitepress";
+// import { withMermaid } from "vitepress-plugin-mermaid";
+
+// export default withMermaid(
+//   defineConfig({
+//     // your existing vitepress config...
+//     // optionally, you can pass MermaidConfig
+//     mermaid: {
+//       // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+//     },
+//   })
+// );
