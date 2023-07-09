@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@types/three": "^0.152.1",
+    "markdown-it-code-copy": "^0.1.1",
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-mermaid": "^0.2.5",
     "three": "^0.153.0",
@@ -20,10 +21,13 @@
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
     "@types/markdown-it-footnote": "^3.0.0",
     "@types/three": "^0.152.1",
     "@vitejs/plugin-vue": "^4.1.0",
+    "markdown-it": "^13.0.1",
     "markdown-it-mermaid": "^0.2.5",
+    "markdown-it-plugin-mermaid": "^1.0.7",
     "mermaid": "^10.2.3",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",

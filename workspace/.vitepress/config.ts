@@ -1,26 +1,26 @@
 import { defineConfig } from 'vitepress';
-import markdownItMermaid from 'markdown-it-mermaid'
+import markdownItMermaid from 'markdown-it-plugin-mermaid'
 import mdFootnote from 'markdown-it-footnote'
 
 export default defineConfig({
   title:"wamaqa",
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/cpp/grpc', activeMatch: '/guide/what-is-vitepress' },
+      { text: '主页', link: '/', activeMatch: '/guide/what-is-vitepress' },
       {
         text: '下拉选择框',
         items: [
-          { text: 'options-1', link: '/' },
+          { text: '软考', link: '/ruankao/' },
           { text: 'options-2', link: '/' }
         ]
       }
     ],
     sidebar:[
       {
-        text: 'Guide',
+        text: '类目',
         items: [
-          { text: 'cpp', link: '/' },
-          { text: 'dpp', link: '/' },
+          { text: '软考', link: '/ruankao/' },
+          // { text: 'dpp', link: '/' },
         ],
         // collapsible: true,
         collapsed: true
@@ -31,7 +31,7 @@ export default defineConfig({
   markdown:{
     config:md=>{
       md.use(mdFootnote)
-      // md.use(markdownItMermaid);
+      md.use(markdownItMermaid);
     },
   },
   mermaid:{
