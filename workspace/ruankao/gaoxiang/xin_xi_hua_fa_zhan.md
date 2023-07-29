@@ -31,6 +31,6 @@ navbar: true
 构上表现出与农业经济、工业经济显著不同的新特点 。
 
 ```mermaid
-graph TD
-    A=>B
+flowchart TD
+  Start --> Stop
 ```

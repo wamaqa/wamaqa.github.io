@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
-import markdownItMermaid from 'markdown-it-plugin-mermaid'
 import mdFootnote from 'markdown-it-footnote'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid({
   title:"wamaqa",
   themeConfig: {
     nav: [
@@ -31,9 +31,7 @@ export default defineConfig({
   markdown:{
     config:md=>{
       md.use(mdFootnote)
-      md.use(markdownItMermaid);
+      // md.use(markdownItMermaid);
     },
-  },
-  mermaid:{
   }
 });
